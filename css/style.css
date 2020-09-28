@@ -158,3 +158,10 @@ html{
     color: #EDF2C5;
     margin: 14px 0 16px 540px;
 }
+
+.pumpkin{
+    position: absolute;
+    width: 940px;
+    height: 448px;
+    margin: 167px 160px 0 160px;
+}
