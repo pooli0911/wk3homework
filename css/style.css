@@ -1,0 +1,97 @@
+@import url("https://www.cssfontstack.com/Arial%20Black");
+
+html{
+    background-color: #EDF2C5;
+    width: 1260px;
+    height: 940px;
+}
+
+.container{
+    max-width: 1260px;
+    max-height: 880px;
+    background-color: #EDF2C5;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* header */
+.header{
+    padding-top: 53px;
+    padding-left: 160px;
+    max-width: 940px;
+    max-height: 42px;
+}
+
+.head-title{
+    position: absolute;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    width: 271px;
+    height: 42px;
+    color: #778A50;
+    font-size: 44px;
+}
+
+.contact{
+    display: flex;
+    max-width: 940px;
+}
+.btn-fb{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    padding-left: 899px;
+    padding-top: 8px;
+}
+.btn-ig{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    padding-left: 934px;
+    padding-top: 8px;
+}
+.line{
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    left: 1130px;
+    background-color: #778A50;
+    top: 61px;
+}
+.box-login{
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    border: solid 1px #778A50;
+    border-radius: 3px;
+    left: 1140px;
+    top: 61px;
+}
+.login{
+    width: 60px;
+    height: 25px;
+    position: absolute;
+    font-family: "Arial Bold", Gadget, sans-serif;
+    font-size: 14px;
+    color : #778A50;
+    text-align: center;
+    line-height: 25px;
+}
+.box-join{
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    border: solid 1px #778A50;
+    border-radius: 3px;
+    left: 1210px;
+    top: 61px;
+}
+.join{
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    font-family: "Arial Bold", Gadget, sans-serif;
+    font-size: 14px;
+    color : #778A50;
+    text-align: center;
+    line-height: 25px;
+}
