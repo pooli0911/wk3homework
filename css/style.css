@@ -4,6 +4,8 @@ html{
     background-color: #EDF2C5;
     width: 1260px;
     height: 940px;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 .container{
@@ -17,7 +19,6 @@ html{
 /* header */
 .header{
     padding-top: 53px;
-    padding-left: 160px;
     max-width: 940px;
     max-height: 42px;
 }
@@ -31,9 +32,10 @@ html{
     font-size: 44px;
 }
 
-.contact{
+.top-contact{
     display: flex;
     max-width: 940px;
+    padding-top: 8px;
 }
 .btn-fb{
     position: absolute;
@@ -55,7 +57,7 @@ html{
     height: 25px;
     left: 1130px;
     background-color: #778A50;
-    top: 61px;
+    top: 69px;
 }
 .box-login{
     position: absolute;
@@ -64,7 +66,7 @@ html{
     border: solid 1px #778A50;
     border-radius: 3px;
     left: 1140px;
-    top: 61px;
+    top: 69px;
 }
 .login{
     width: 60px;
@@ -83,7 +85,7 @@ html{
     border: solid 1px #778A50;
     border-radius: 3px;
     left: 1210px;
-    top: 61px;
+    top: 69px;
 }
 .join{
     width: 50px;
@@ -94,4 +96,8 @@ html{
     color : #778A50;
     text-align: center;
     line-height: 25px;
+}
+/* content */
+.content-area{
+    display: flex;
 }
