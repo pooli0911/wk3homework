@@ -4,60 +4,60 @@ html{
     background-color: #EDF2C5;
     width: 1260px;
     height: 940px;
-    padding-left: 160px;
-    padding-right: 160px;
+    outline: 1px solid #778A50;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit
 }
 
 .container{
-    max-width: 1260px;
-    max-height: 880px;
+    max-width: 940px;
     background-color: #EDF2C5;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 /* header */
 .header{
-    padding-top: 53px;
     max-width: 940px;
     max-height: 42px;
+    padding-left: 160px;
 }
 
 .head-title{
     position: absolute;
+    display: block;
     font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
     width: 271px;
     height: 42px;
     color: #778A50;
     font-size: 44px;
+    padding: 53px 0 0 0;
 }
 
 .top-contact{
     display: flex;
-    max-width: 940px;
-    padding-top: 8px;
 }
 .btn-fb{
     position: absolute;
     width: 25px;
     height: 25px;
-    padding-left: 899px;
-    padding-top: 8px;
+    margin: 69px 0 0 739px;
 }
 .btn-ig{
     position: absolute;
     width: 25px;
     height: 25px;
-    padding-left: 934px;
-    padding-top: 8px;
+    margin: 69px 0 0 774px;
 }
 .line{
     position: absolute;
     width: 1px;
     height: 25px;
-    left: 1130px;
     background-color: #778A50;
-    top: 69px;
+    margin: 69px 0 0 809px;
 }
 .box-login{
     position: absolute;
@@ -65,8 +65,7 @@ html{
     height: 25px;
     border: solid 1px #778A50;
     border-radius: 3px;
-    left: 1140px;
-    top: 69px;
+    margin: 69px 0 0 820px;
 }
 .login{
     width: 60px;
@@ -84,8 +83,7 @@ html{
     height: 25px;
     border: solid 1px #778A50;
     border-radius: 3px;
-    left: 1210px;
-    top: 69px;
+    margin: 69px 0 0 890px;
 }
 .join{
     width: 50px;
@@ -100,4 +98,63 @@ html{
 /* content */
 .content-area{
     display: flex;
+}
+.nav{
+    position: absolute;
+    width: 940px;
+    height: 44px;
+    background-color: #778A50;
+    border-radius: 3px;
+    margin: 111px 0 0 160px;
+}
+.nav-list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+}
+.home{
+    position: absolute;
+    display: block;
+    list-style: none;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 16px;
+    color: #EDF2C5;
+    margin: 14px 0 16px 30px;
+}
+.about-us{
+    position: absolute;
+    display: block;
+    list-style: none;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 16px;
+    color: #EDF2C5;
+    margin: 14px 0 16px 140px;
+}
+.vegetables{
+    position: absolute;
+    display: block;
+    list-style: none;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 16px;
+    color: #EDF2C5;
+    margin: 14px 0 16px 275px;
+}
+.online{
+    position: absolute;
+    display: block;
+    list-style: none;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 16px;
+    color: #EDF2C5;
+    margin: 14px 0 16px 430px;
+}
+.contact{
+    position: absolute;
+    display: block;
+    list-style: none;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 16px;
+    color: #EDF2C5;
+    margin: 14px 0 16px 540px;
 }
