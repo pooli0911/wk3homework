@@ -165,3 +165,97 @@ html{
     height: 448px;
     margin: 167px 160px 0 160px;
 }
+
+/* aside */
+.box-veg{
+    position: absolute;
+    width: 445px;
+    height: 45px;
+    background-color: #778A50;
+    margin: 645px 0 0 160px;
+    border-radius: 3px;
+}
+.title-veg{
+    position: absolute;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 16px;
+    color: #EDF2C5;
+    margin: 14px 0 15px 30px;
+}
+
+.box-contact{
+    position: absolute;
+    width: 445px;
+    height: 45px;
+    background-color: #778A50;
+    margin: 645px 0 0 655px;
+    border-radius: 3px;
+}
+.title-contact{
+    position: absolute;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 16px;
+    color: #EDF2C5;
+    margin: 14px 0 15px 30px;
+}
+
+.img-veg{
+    position: absolute;
+    display: flex;
+    width: 140px;
+    height: 140px;
+    border: 3px;
+    margin: 705px 0 0 160px;
+}
+.carrot{
+    margin: 0 0 0 12px;
+}
+.corn{
+    margin: 0 0 0 12px;
+}
+
+.contact-bg{
+    position: absolute;
+    width: 445px;
+    height: 140px;
+    background-color: #F7FBDA;
+    margin: 705px 0 0 655px;
+    border: 3px;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.33;
+    font-size: 12px;
+    color: #7D7D7D;
+    margin: 16px 0 16px 15px;
+}
+.contact-line{
+    position: absolute;
+    background-color: #7D7D7D;
+    width: 414px;
+    height: 1px;
+    margin: 0px 0 16px 15px;
+}
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #7D7D7D;
+    margin: 30px 0 16px 15px;
+    line-height: 1.83;
+}
+
+.footer-box{
+    display: flex;
+    position: absolute;
+    width: 1260px;
+    height: 60px;
+    background-color: #778A50;
+    margin-top: 880px;
+}
+.footer-text{
+    position: absolute;
+    margin: 24px 0 0 479px;
+    color: #EDF2C5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
