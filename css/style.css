@@ -41,17 +41,15 @@ html{
 .top-contact{
     display: flex;
 }
-.btn-fb{
+.btn-img{
     position: absolute;
+    display: flex;
     width: 25px;
     height: 25px;
     margin: 61px 0 0 739px;
 }
 .btn-ig{
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    margin: 61px 0 0 774px;
+    margin: 0 0 0 10px;
 }
 .line{
     position: absolute;
@@ -107,14 +105,12 @@ html{
     background-color: #778A50;
     border-radius: 3px;
     margin: 103px 0 0 160px;
-    /* padding-left: 30px; */
     padding-top: 13px;
 }
 .nav-list{
     display: flex;
     margin: 0;
     padding: 0 0 0 30px;
-    /* padding: 16px 0 0 30px; */
 }
 .nav-list-item{
     list-style: none;
@@ -128,7 +124,14 @@ html{
     font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 
 }
-
+.login:hover{
+    background-color: #778A50;
+    color: #EDF2C5;
+}
+.join:hover{
+    background-color: #778A50;
+    color: #EDF2C5;
+}
 .pumpkin{
     position: absolute;
     width: 940px;
