@@ -5,13 +5,12 @@ html{
     width: 1260px;
     height: 940px;
     box-sizing: border-box;
-    
 }
 
 *,
 *:before,
 *:after {
-	box-sizing: inherit
+	box-sizing: inherit;
 }
 
 .container{
@@ -129,51 +128,6 @@ html{
     font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 
 }
-/* .home{
-    position: absolute;
-    display: block;
-    list-style: none;
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-    font-size: 16px;
-    color: #EDF2C5;
-    margin: 14px 0 16px 30px;
-}
-.about-us{
-    position: absolute;
-    display: block;
-    list-style: none;
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-    font-size: 16px;
-    color: #EDF2C5;
-    margin: 14px 0 16px 140px;
-}
-.vegetables{
-    position: absolute;
-    display: block;
-    list-style: none;
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-    font-size: 16px;
-    color: #EDF2C5;
-    margin: 14px 0 16px 275px;
-}
-.online{
-    position: absolute;
-    display: block;
-    list-style: none;
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-    font-size: 16px;
-    color: #EDF2C5;
-    margin: 14px 0 16px 430px;
-}
-.contact{
-    position: absolute;
-    display: block;
-    list-style: none;
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-    font-size: 16px;
-    color: #EDF2C5;
-    margin: 14px 0 16px 540px;
-} */
 
 .pumpkin{
     position: absolute;
