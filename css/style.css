@@ -5,6 +5,7 @@ html{
     width: 1260px;
     height: 940px;
     box-sizing: border-box;
+    
 }
 
 *,
@@ -14,7 +15,7 @@ html{
 }
 
 .container{
-    max-width: 940px;
+    max-width: 880px;
     background-color: #EDF2C5;
 }
 
@@ -22,18 +23,20 @@ html{
 .header{
     max-width: 940px;
     max-height: 42px;
-    padding-left: 160px;
+    margin-left: 160px;
 }
 
 .head-title{
     position: absolute;
+    margin: 0;
+    margin: 42px 0 0 0;
     display: block;
     font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
     width: 271px;
     height: 42px;
     color: #778A50;
     font-size: 44px;
-    padding: 53px 0 0 0;
+    /* padding: 53px 0 0 0; */
 }
 
 .top-contact{
@@ -43,20 +46,20 @@ html{
     position: absolute;
     width: 25px;
     height: 25px;
-    margin: 69px 0 0 739px;
+    margin: 61px 0 0 739px;
 }
 .btn-ig{
     position: absolute;
     width: 25px;
     height: 25px;
-    margin: 69px 0 0 774px;
+    margin: 61px 0 0 774px;
 }
 .line{
     position: absolute;
     width: 1px;
     height: 25px;
     background-color: #778A50;
-    margin: 69px 0 0 809px;
+    margin: 61px 0 0 809px;
 }
 .box-login{
     position: absolute;
@@ -64,7 +67,7 @@ html{
     height: 25px;
     border: solid 1px #778A50;
     border-radius: 3px;
-    margin: 69px 0 0 820px;
+    margin: 61px 0 0 820px;
 }
 .login{
     width: 60px;
@@ -82,7 +85,7 @@ html{
     height: 25px;
     border: solid 1px #778A50;
     border-radius: 3px;
-    margin: 69px 0 0 890px;
+    margin: 61px 0 0 890px;
 }
 .join{
     width: 50px;
@@ -104,15 +107,22 @@ html{
     height: 44px;
     background-color: #778A50;
     border-radius: 3px;
-    margin: 111px 0 0 160px;
+    margin: 103px 0 0 160px;
 }
 .nav-list{
     display: flex;
-    margin: 0;
-    padding: 0;
-    margin-right: 10px;
+    padding-right: 10px;
 }
-.home{
+.nav-list-item{
+    list-style: 0;
+    margin-right: 60px;
+}
+.nav-list-itmem-link{
+    font-size: 16px;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    color: #EDF2C5;
+}
+/* .home{
     position: absolute;
     display: block;
     list-style: none;
@@ -156,7 +166,7 @@ html{
     font-size: 16px;
     color: #EDF2C5;
     margin: 14px 0 16px 540px;
-}
+} */
 
 .pumpkin{
     position: absolute;
