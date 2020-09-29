@@ -5,6 +5,7 @@ html{
     width: 1260px;
     height: 940px;
     box-sizing: border-box;
+    margin: auto;
 }
 
 *,
