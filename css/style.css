@@ -108,19 +108,26 @@ html{
     background-color: #778A50;
     border-radius: 3px;
     margin: 103px 0 0 160px;
+    /* padding-left: 30px; */
+    padding-top: 13px;
 }
 .nav-list{
     display: flex;
-    padding-right: 10px;
+    margin: 0;
+    padding: 0 0 0 30px;
+    /* padding: 16px 0 0 30px; */
 }
 .nav-list-item{
-    list-style: 0;
+    list-style: none;
     margin-right: 60px;
 }
-.nav-list-itmem-link{
+.nav-list-item-link{
+    display: block;
+    color: #EDF2C5;
+    text-decoration: none;
     font-size: 16px;
     font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-    color: #EDF2C5;
+
 }
 /* .home{
     position: absolute;
