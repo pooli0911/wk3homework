@@ -59,12 +59,14 @@ html{
     background-color: #778A50;
     margin: 61px 0 0 809px;
 }
-.box-login{
+.box{
     position: absolute;
-    width: 60px;
     height: 25px;
     border: solid 1px #778A50;
     border-radius: 3px;
+}
+.box-login{
+    width: 60px;
     margin: 61px 0 0 820px;
 }
 .login{
@@ -78,11 +80,7 @@ html{
     line-height: 25px;
 }
 .box-join{
-    position: absolute;
     width: 50px;
-    height: 25px;
-    border: solid 1px #778A50;
-    border-radius: 3px;
     margin: 61px 0 0 890px;
 }
 .join{
@@ -141,35 +139,30 @@ html{
 }
 
 /* aside */
-.box-veg{
+.box-aside{
     position: absolute;
     width: 445px;
     height: 45px;
     background-color: #778A50;
-    margin: 645px 0 0 160px;
     border-radius: 3px;
 }
-.title-veg{
+.title-aside{
     position: absolute;
     font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
     font-size: 16px;
     color: #EDF2C5;
+}
+.box-veg{
+    margin: 645px 0 0 160px;
+}
+.title-veg{
     margin: 14px 0 15px 30px;
 }
 
 .box-contact{
-    position: absolute;
-    width: 445px;
-    height: 45px;
-    background-color: #778A50;
     margin: 645px 0 0 655px;
-    border-radius: 3px;
 }
 .title-contact{
-    position: absolute;
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-    font-size: 16px;
-    color: #EDF2C5;
     margin: 14px 0 15px 30px;
 }
 
@@ -182,10 +175,10 @@ html{
     margin: 705px 0 0 160px;
 }
 .carrot{
-    margin: 0 0 0 12px;
+    margin-right: 12px;
 }
 .corn{
-    margin: 0 0 0 12px;
+    margin-right: 12px;
 }
 
 .contact-bg{
@@ -217,7 +210,6 @@ html{
     margin: 30px 0 16px 15px;
     line-height: 1.83;
 }
-
 .footer-box{
     display: flex;
     position: absolute;
